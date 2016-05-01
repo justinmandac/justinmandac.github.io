@@ -1,8 +1,0 @@
-{
-    "plugins": {
-        "metalsmith-in-place": {
-            "engine": "ejs",
-            "partials": "partials"
-        }
-    }
-}
