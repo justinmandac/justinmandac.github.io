@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html><head>
     <meta charset="utf-8">
     <title>
       root34
@@ -9,19 +8,20 @@
       
     </title>
     <link rel="stylesheet" href="/assets/stylesheets/style.css" media="screen" title="no title" charset="utf-8">
-<!-- place js/css here -->
-</head>
-<body class="page ">
+    <!-- place js/css here -->
+    <link rel="stylesheet" href="/assets/stylesheets/pages/blog.css" media="screen" title="no title" charset="utf-8">
+    </head>
+<body class="blog ">
   <main class="outer-wrapper main">
     <div class="main__inner">
-    <header class="header-wrapper header">
-      <div class="header-wrapper__inner">
-        <div class="main-header header">
+        <header class="header-wrapper header">
+          <div class="header-wrapper__inner">
+            <div class="main-header header">
   <div class="main-header__inner">
     <div class="site-title">root34</div>
   </div>
 </div>
-        <nav class="main-navigation">
+            <nav class="main-navigation">
   <ul class="main-navigation__inner">
     <li class="main-navigation__item"><a href="/" class="main-navigation__link">Home</a></li>
     <li class="main-navigation__item"><a href="/about" class="main-navigation__link">About</a></li>
@@ -29,22 +29,36 @@
     <li class="main-navigation__item"><a href="/portfolio" class="main-navigation__link">Portfolio</a></li>
   </ul>
 </nav>
-      </div>
-    </header>
-    <div class="page-content">
-      <p>Blag</p>
-    </div>
-    <footer class="footer-wrapper footer">
-      <div class="main-footer footer">
+          </div>
+        </header>
+        <div class="page-content">
+            
+          <ul class="posts-loop post-list">
+            
+              <li class="posts-loop__item post-list__item">
+                <h3 class="post-list__item__title">
+                  <a class="post-list__item__link" href="how-i-built-this-site-using-metalsmith">
+                    How I Built this Site using Metalsmith
+                  </a>
+                </h3>
+                <div class="posts-list__item__excerpt">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                </div>
+              </li>
+              
+          </ul>
+        </div>
+        <footer class="footer-wrapper footer">
+            <div class="main-footer footer">
   <div class="main-footer__inner">
     <div class="main-footer__acknowledgement">
       McGyver-ed using <a href="metalsmith.io">Metalsmith</a>
     </div>
   </div>
 </div>
-    </footer>
-    <!-- place js/css here -->
+        </footer>
+        <!-- place js/css here -->
 </div>
 </main>
-</body>
-</html>
+
+
+</body></html>
