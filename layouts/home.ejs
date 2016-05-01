@@ -1,0 +1,34 @@
+<%-  include partials/head_common -%>
+    <!-- place js/css here -->
+    <link rel="stylesheet" href="/assets/stylesheets/pages/home.css" media="screen" title="no title" charset="utf-8">
+    <%-  include partials/head_common_close -%>
+    <% var firstPost = collections.posts[0] %>
+        <header class="header-wrapper header"
+                style="background-image: url(<%- firstPost.header %>)">
+          <div class="header-wrapper__inner">
+            <%- include partials/header -%>
+            <%- include partials/navigation -%>
+          </div>
+          <div class="latest-post">
+            <h1 class="latest-post__title">
+              <a class="latest-post__link" href="<%= firstPost.path %>">
+                <%= firstPost.title %>
+              </a>
+            </h1>
+            <div class="latest-post__excerpt">
+                <%- firstPost.excerpt -%>
+            </div>
+            <div class="latest-post__read-more">
+              <h3><a class="latest-post__read-more-trigger" href="<%= firstPost.path %>">Continue reading</a></h3>
+            </div>
+          </div>
+        </header>
+        <div class="page-content">
+            <h2>More stuff</h2>
+            <%- contents -%>
+        </div>
+        <footer class="footer-wrapper footer">
+            <%- include partials/footer -%>
+        </footer>
+        <!-- place js/css here -->
+<%- include partials/foot_common -%>

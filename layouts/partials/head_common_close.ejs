@@ -1,4 +1,7 @@
 </head>
-<body>
+<body class="<%= layout
+                 .replace('.ejs','')
+                 .trim()
+                 .concat(' '.concat(typeof classList !== 'undefined'? classList : '')) %>">
   <main class="outer-wrapper main">
     <div class="main__inner">

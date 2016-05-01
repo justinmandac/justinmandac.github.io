@@ -29,6 +29,7 @@ var MetalSmith = require('metalsmith'),
     branch = require('metalsmith-branch'),
     collections = require('metalsmith-collections'),
     permalinks = require('metalsmith-permalinks'),
+    excerpts  = require('metalsmith-excerpts'),
     ejs = require('ejs');
 
 var sassConfig = require('./config/sass')(ENV);
@@ -40,7 +41,6 @@ var build = MetalSmith(__dirname)
         pattern: 'posts/*.md',
         sortBy: 'date',
         reverse: true
-
       }
     }))
     .use(inplace({
@@ -50,6 +50,7 @@ var build = MetalSmith(__dirname)
     .use(markdown({
         smartyPants: true
     }))
+    .use(excerpts())
     .use(permalinks())
     .use(layouts({
         engine: TEMPLATE_ENGINE,

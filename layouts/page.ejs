@@ -2,8 +2,10 @@
 <!-- place js/css here -->
 <%-  include partials/head_common_close -%>
     <header class="header-wrapper header">
-      <%- include partials/header -%>
-      <%- include partials/navigation -%>
+      <div class="header-wrapper__inner">
+        <%- include partials/header -%>
+        <%- include partials/navigation -%>
+      </div>
     </header>
     <div class="page-content">
       <%- contents -%>
