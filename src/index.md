@@ -1,7 +1,4 @@
 ---
 title : Home
-layout: page.ejs
+layout: home.ejs
 ---
-
-Hello!
-=========

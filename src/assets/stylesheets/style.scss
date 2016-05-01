@@ -4,3 +4,14 @@
 @import "vendor/meyer-reset";
 @import "vendor/bourbon/bourbon";
 @import "vendor/neat/neat";
+
+@import "config/variables";
+@import "config/colors";
+@import "config/breakpoints";
+
+@import "base/type";
+
+@import "base/header";
+@import "base/navigation";
+@import "base/content";
+@import "base/footer";
