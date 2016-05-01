@@ -35,7 +35,7 @@ var MetalSmith = require('metalsmith'),
 var sassConfig = require('./config/sass')(ENV);
 
 var build = MetalSmith(__dirname)
-    .destination('dist/')
+    .destination('site/')
     .use(collections({
       posts: {
         pattern: 'posts/*.md',
