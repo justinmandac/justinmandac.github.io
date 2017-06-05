@@ -1,0 +1,31 @@
+html, body {
+  font-family: "Merriweather";
+  font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald';
+}
+
+/**
+ * #HEADER STYLES
+*/
+
+.header__title, .header__location {
+  margin-bottom: 0;
+}
+
+.header__location {
+  line-height: 64px;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+/**
+ * #CONTENT STYLES
+*/
+.content {
+  padding-top: 24px;
+}
