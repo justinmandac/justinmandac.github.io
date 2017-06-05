@@ -29,3 +29,15 @@ h1, h2, h3, h4, h5, h6 {
 .content {
   padding-top: 24px;
 }
+
+.work-list {
+  list-style: none;
+}
+
+.section__heading {
+  margin-bottom: 8px;
+}
+
+.work-item__heading > * {
+  display: inline;
+}
