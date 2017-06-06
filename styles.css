@@ -1,12 +1,15 @@
 html, body {
-  font-family: "Merriweather";
+  font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
   font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald';
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
 }
 
+.light-text {
+  color: #ccc;
+}
 /**
  * #HEADER STYLES
 */
@@ -39,6 +42,28 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
 }
 
-.work-item__heading > * {
+.inline-heading > * {
   display: inline;
 }
+
+.inline-list {
+  list-style: none;
+}
+
+.inline-list li {
+  display: inline;
+}
+
+.inline-list li::after {
+  content: ","
+}
+
+.inline-list li:last-child::after {
+  content: ""
+}
+
+.footer {
+  padding-top: 32px;
+  padding-bottom: 14px;
+}
+
