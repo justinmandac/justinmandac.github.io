@@ -1,0 +1,22 @@
+{
+  "name": "justinmandac.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinmandac/justinmandac.github.io.git"
+  },
+  "author": "Bien Justin Mandac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinmandac/justinmandac.github.io/issues"
+  },
+  "homepage": "https://github.com/justinmandac/justinmandac.github.io#readme"
+}
