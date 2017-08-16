@@ -10,7 +10,7 @@
     "serve:simplehttp": "python -m SimpleHTTPServer 3000",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack" : "node ./node_modules/webpack/bin/webpack",
-    "devserver" : "node ./node_modules/webpack-dev-server/bin/webpack-dev-server"
+    "serve:webpack" : "node ./node_modules/webpack-dev-server/bin/webpack-dev-server"
   },
   "repository": {
     "type": "git",
