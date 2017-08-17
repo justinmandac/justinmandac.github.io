@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => (
   <section className="page about-section section">
-    About Me
+    <h3 className="container">About</h3>
   </section>
 );
 
