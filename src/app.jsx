@@ -9,7 +9,7 @@ import About from './about.page';
 const App = () => (
   <HashRouter>        
     <div className="app-container">
-      <Header />
+      <Header className="app-container__header"/>
       <Switch>        
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />

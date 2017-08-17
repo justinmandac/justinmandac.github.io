@@ -23388,7 +23388,7 @@ var App = function App() {
     _react2.default.createElement(
       'div',
       { className: 'app-container' },
-      _react2.default.createElement(_header2.default, null),
+      _react2.default.createElement(_header2.default, { className: 'app-container__header' }),
       _react2.default.createElement(
         _reactRouterDom.Switch,
         null,
@@ -26215,9 +26215,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Home = function Home() {
   return _react2.default.createElement(
-    'div',
-    null,
-    'Home Page'
+    "section",
+    { className: "page home-section section" },
+    "Home Page"
   );
 };
 
@@ -26242,9 +26242,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Projects = function Projects() {
   return _react2.default.createElement(
-    'div',
-    null,
-    'Projects'
+    "section",
+    { className: "page projects-section section" },
+    "Projects"
   );
 };
 
@@ -26269,9 +26269,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var About = function About() {
   return _react2.default.createElement(
-    'div',
-    null,
-    'About Me'
+    "section",
+    { className: "page about-section section" },
+    "About Me"
   );
 };
 

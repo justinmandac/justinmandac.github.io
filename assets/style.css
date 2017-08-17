@@ -12,7 +12,13 @@ html, body {
 .app {
   min-height: 100vh; }
 
+.app-container > .app-header {
+  position: fixed; }
+
 .app-header {
   height: 56px; }
+
+.page {
+  min-height: 100vh; }
 
 /*# sourceMappingURL=style.css.map*/
