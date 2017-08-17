@@ -32,3 +32,11 @@ html, body {
 .page {
   min-height: 100vh;
 }
+
+.projects-list {
+  list-style: none;
+
+  > .project {
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.4);
+  }
+}
