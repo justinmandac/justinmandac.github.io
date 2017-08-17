@@ -19,6 +19,10 @@ html, body {
   > .app-header {
     position: fixed;
   }
+
+  > .page {
+    padding-top: $header-height;
+  }
 }
 
 .app-header {
@@ -27,8 +31,4 @@ html, body {
 
 .page {
   min-height: 100vh;
-}
-
-.home-section {
-  padding-top: $header-height;
 }
