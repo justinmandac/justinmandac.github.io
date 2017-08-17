@@ -1,3 +1,6 @@
+/**
+ * @fileoverview Main container for site pages.
+ */
 import React from 'react';
 import Header from './header';
 import { Route, HashRouter, Switch } from 'react-router-dom';
