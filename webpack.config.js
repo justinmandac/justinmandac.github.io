@@ -1,3 +1,5 @@
+const ExtractTextPlugin =  require('extract-text-webpack-plugin');
+
 const config = {
   devtool : 'source-map',
   entry : './src/main.js',
@@ -14,10 +16,16 @@ const config = {
       },
       {
         test: /\.scss$/,
-        loader: 'style-loader!raw-loader!sass-loader'
+        use : ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: 'css-loader!sass-loader',
+        }),        
       },
     ],
   },
+  plugins: [
+    new ExtractTextPlugin('./assets/style.css'),
+  ],
   resolve: {
     extensions : ['.js', '.jsx', '.scss']
   },
