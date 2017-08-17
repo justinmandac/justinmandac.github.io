@@ -4,10 +4,27 @@
 
 const ProjectsList = [
   {
-    title: '',
+    metadata: {
+      description: 'Lorem ipsum dolor sit amet.',
+    },
+    repository: '',
+    title: 'Earthquake Visualization',
+    url: '',
+  },
+  {    
     metadata: {
       description: '',
     },
+    repository: '',
+    title: 'DogBook',
+    url: '',
+  },
+  {    
+    metadata: {
+      description: '',
+    },
+    repository: '',
+    title: 'SimplePOS',
     url: '',
   },
 ];
