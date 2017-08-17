@@ -11,11 +11,15 @@ const config = {
         test: /\.jsx?$/,
         loader: 'babel-loader',
         exclude: '/node_modules',
-      }
+      },
+      {
+        test: /\.scss$/,
+        loader: 'style-loader!raw-loader!sass-loader'
+      },
     ],
   },
   resolve: {
-    extensions : ['.js', '.jsx', ]
+    extensions : ['.js', '.jsx', '.scss']
   },
 };
 
